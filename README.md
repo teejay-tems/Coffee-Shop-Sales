@@ -217,9 +217,9 @@ Total Revenue = SUMX ('Sales Data','Sales Data'[transaction_qty]*'Sales Data'[un
 # Data Visualization
 This data visualization was created using Power BI, each visual created displays information for each question in the business objective.
 
-![](Top_product_by_Revenue.png) 
+![](Chart.png) 
 
-You can interact with the report Here.
+You can interact with the report [Here]().
 
 # Recommendation
 
