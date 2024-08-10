@@ -74,6 +74,7 @@ By analyzing sales trends and identifying popular products, the marketing team c
 - In the "Get Data" window, select "Text/CSV" as the data source.
 - Navigated to the location where the CSV file is stored.
 - Selected the CSV file I want to import and clicked "Open."
+ ![](get_data pg.png)
 
 **_4.Preview and Transform_**
 - Power BI displayed a preview of the data from the CSV file.
@@ -96,6 +97,7 @@ By analyzing sales trends and identifying popular products, the marketing team c
 **_2.Column Profile_**
 
 |Column_Name|Data_Type|Distinct_Value|Unique_Value|%Valid _Values|%Valid_Errors|%Empty_Values|Minimum|Maximum|
+|-----------|------|--------|---------|--------|-------|----------|---------|--------|
 |Transaction ID|------|--------|---------|--------|-------|----------|---------|--------|
 |Transaction Date|---------|--------|---------|--------|-------|----------|---------|--------|
 |Transaction Time|---------|--------|---------|--------|-------|----------|---------|--------|
