@@ -87,9 +87,11 @@ By analyzing sales trends and identifying popular products, the marketing team c
 **Data Profile on Key Column on Coffee Sales Table**
 
 **_1.Basic information_**
+
 - Table name: Coffee Sales Table
-_ Number of Rows: 149,116
-_ Number of key Columns: 12
+
+- Number of Rows: 149,116
+- Number of key Columns: 12
 
 **_2.Column Profile_**
  ![](PowerQ1.png)
