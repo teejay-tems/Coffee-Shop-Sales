@@ -92,7 +92,7 @@ By analyzing sales trends and identifying popular products, the marketing team c
 - Table name: Coffee Sales Table
 
 - Number of Rows: 149,116
-- Number of key Columns: 12
+- Number of Columns: 12
 
 **_2.Column Profile_**
 
@@ -121,7 +121,6 @@ Missing Values:
 - Product Detail: 0
 - Store ID: 0
 - Store Location: 0
-- Duplicates: This table has no duplicate value
 
  ![](PowerQ1.png)
 
