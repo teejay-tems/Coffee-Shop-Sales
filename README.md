@@ -68,13 +68,13 @@ By analyzing sales trends and identifying popular products, the marketing team c
 **_2.Get Data_**
 - Clicked on the "Home" tab in the Power BI Desktop.
 - Selected "Get Data" to initiate the data import process.
- ![](get_data pg.png)
+ ![](get_data.png)
 
 **_3. Choose Text/CSV and Specify the File Location_**
 - In the "Get Data" window, select "Text/CSV" as the data source.
 - Navigated to the location where the CSV file is stored.
 - Selected the CSV file I want to import and clicked "Open."
- ![](get_data pg.png)
+ ![](get_data.png)
 
 **_4.Preview and Transform_**
 - Power BI displayed a preview of the data from the CSV file.
@@ -106,7 +106,7 @@ By analyzing sales trends and identifying popular products, the marketing team c
 |Unit Price|---------|--------|---------|--------|-------|----------|---------|--------|
 |Profit|---------|--------|---------|--------|-------|----------|---------|--------|
 |Product Category|---------|--------|---------|--------|-------|----------|---------|--------|
-||Product Type|---------|--------|---------|--------|-------|----------|---------|--------|
+|Product Type|---------|--------|---------|--------|-------|----------|---------|--------|
 |Product Detail|---------|--------|---------|--------|-------|----------|---------|--------|
 |Store ID|---------|--------|---------|--------|-------|----------|---------|--------|
 |Store Location|---------|--------|---------|--------|-------|----------|---------|--------|
