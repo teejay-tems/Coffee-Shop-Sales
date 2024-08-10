@@ -96,20 +96,15 @@ By analyzing sales trends and identifying popular products, the marketing team c
 
 **_2.Column Profile_**
 
-|Column_Name|Data_Type|Distinct_Value|Unique_Value|%Valid _Values|%Valid_Errors|%Empty_Values|Minimum|Maximum|
-|-----------|------|--------|---------|--------|-------|----------|---------|--------|
-|Transaction ID|------|--------|---------|--------|-------|----------|---------|--------|
-|Transaction Date|---------|--------|---------|--------|-------|----------|---------|--------|
-|Transaction Time|---------|--------|---------|--------|-------|----------|---------|--------|
-|Transaction Qty|---------|--------|---------|--------|-------|----------|---------|--------|
-|Product ID|---------|--------|---------|--------|-------|----------|---------|--------|
-|Unit Price|---------|--------|---------|--------|-------|----------|---------|--------|
-|Profit|---------|--------|---------|--------|-------|----------|---------|--------|
-|Product Category|---------|--------|---------|--------|-------|----------|---------|--------|
-|Product Type|---------|--------|---------|--------|-------|----------|---------|--------|
-|Product Detail|---------|--------|---------|--------|-------|----------|---------|--------|
-|Store ID|---------|--------|---------|--------|-------|----------|---------|--------|
-|Store Location|---------|--------|---------|--------|-------|----------|---------|--------|
+|Column_Name|Data_Type|Distinct_Value|Unique|NaN|Average|Errors|Empty_Values|Minimum|Maximum|
+|-----------|------|--------|---------|--------|-------|----------|---------|--------|------|
+|Transaction Qty|Whole Number |2 |0 |0 |1.42|0 |0 |1 |2 |
+|Unit Price|Decimal Number |14 |0 |0 |3.11|0 |0 |2 |4.75|
+|Profit|Decimal Number |27 |0 |0 |21.51 |0 |0 |13 | 35.62||
+|Product Category|Text |4 |0 |- |- |0 |0 |Bakery |Tea |
+|Product Type|Text |13 |0 |-|-|0 |0 |Barista Espresso|Scone|
+|Product Detail|Text |52 |0 |-|-|0 |0 |Almond Croissant|Traditional  Blend Chai Rg|
+|Store Location|Text |3 |0 |0 |-|0 |0 |Astoria|Lower Manhattan|
  
  
 **_3. Data Quality Checks_**
