@@ -1,1 +1,151 @@
 # Coffee-Shop-Sales
+![](Coffe_Shop.png) 
+# Introduction
+A Power BI project analyzing a fictitious coffee shop operating in New York City and to provide insights needed to make informed decisions and pinpoint important areas in need of enhancement and optimization.
+
+# Table Of Content
+- Project Overview
+- Project Scope
+- Business Objective
+- Document Purpose
+- Use Case
+- Skills/Concept Demonstrated
+- Data Source
+- Data Cleaning and Processing
+- Data Analysis 
+- Data Visualization
+- Recommendation
+- Conclusion
+
+# Project Overview   
+This project seeks to equip the Coffee Shop with actionable insights based on a detailed analysis of Maven Roasters' sales data. It will provide valuable information on product popularity, track sales trends over time, and evaluate the revenue contributions of different store locations. Additionally, the project aims to capture a comprehensive understanding of sales dynamics across various locations within a specified timeframe. By offering a deep dive into these metrics, the project will enable the Coffee Shop to make informed decisions, optimize operations, and strategically drive business growth.
+
+# Project Scope
+This project provides a thorough analysis of Maven Roasters' sales data, focusing on key elements like transaction dates, timestamps, locations, and detailed product-level information across all three Maven Roasters locations in New York City. The study aims to deliver an in-depth understanding of sales dynamics and trends across the different locations within the specified timeframe.
+The analysis spans data from January 1, 2023, to June 9, 2023, providing a comprehensive overview of the coffee shop's operational performance during this period.
+
+# Business Objective
+The primary goal of the coffee shop project is to identify the best-selling and least-selling products, determine which items generate the most revenue, and understand which days of the week are the busiest. Additionally, the project aims to uncover patterns and trends in sales over time.
+
+# Document Purpose
+This documentation serves as a guide for project stakeholders, providing insights into the project's objectives, data sources, data analysis, visualization and any other relevant information.
+
+# Use Case
+This analysis project for Maven Coffee Shop Sales would provide valuable insights and improvements across various operational aspects. Different stakeholders within the organization could leverage these findings to enhance their respective functions. The following important parties may find this analysis useful and advantageous.
+
+**_1.Customer services representatives:_**
+Application of Analysis:  Understanding which days are busiest, and which products are most popular equips customer service teams to better prepare for high-demand periods. With this awareness, teams can allocate resources more efficiently, ensuring quicker responses to customer inquiries and minimizing wait times. 
+Benefits: This proactive approach not only enhances the customer experience but also helps in addressing potential issues before they escalate. Ultimately, it leads to smoother operations and higher customer satisfaction
+
+**_2. Management of Operations:_**
+Application of Analysis: Executives and top-level managers can utilize the insights gained from the analysis to make well-informed decisions that shape sales strategies and optimize resource allocation. By understanding market trends and customer preferences, they can identify opportunities for growth and areas that require improvement. This data-driven approach enables leaders to align their business direction with customer demands, ensuring that the organization remains competitive in a dynamic market. Ultimately, these strategic decisions contribute to long-term success and sustainability for the business.  
+
+**_3. Marketing Team:_**
+By analyzing sales trends and identifying popular products, the marketing team can create targeted campaigns designed to enhance sales and promote high-demand items effectively. These insights enable them to strategically plan marketing initiatives that maximize revenue potential. Additionally, understanding the busiest days and customer preferences allows the team to optimize the timing and content of promotional activities, ensuring that marketing efforts resonate with customers when they are most likely to engage. This tailored approach not only boosts sales but also fosters stronger customer relationships and loyalty.
+
+# Skills/ Concepts Demonstrated
+- Data Connection in Microsoft Power BI
+- Data Profiling
+- Data Cleaning and Transformation in Power Query
+- Data Modelling
+- Data Analysis
+- Data Visualization
+
+# Data Source
+ This project uses a dataset that was designed especially for practice and was taken from the Maven Analytics website. The dataset is provided as a CSV file and consists of a single table with 149,116 rows and 12 columns. Maven Roasters’ sales data is characterized by a 
+ wealth of information within this structured framework, offering a nuanced understanding of various aspects of their business operations. Key attributes that are necessary for a thorough analysis are included in the dataset: Product ID, Unit Price, Profit, Product 
+ Category, Product Type, Product Detail, Store ID, Store Location, Transaction ID, Transaction Date, Transaction Time, and Transaction Qty. All these factors provide important information, which when combined creates a clear picture of the transactional scenario for 
+ Maven Roasters.
+
+**Data Connection Details**
+ In Power BI, connecting to a CSV file involves specifying the location of the CSV file and defining the data import settings.
+ The procedures for connecting data in Power BI are listed below.
+
+**_1.Open Power BI Desktop_**
+- Launched power BI Desktop on computer.
+  ![](Home_page.png)    
+
+**_2.Get Data_**
+- Clicked on the "Home" tab in the Power BI Desktop.
+- Selected "Get Data" to initiate the data import process.
+ ![](get_data pg.png)
+
+**_3. Choose Text/CSV and Specify the File Location_**
+- In the "Get Data" window, select "Text/CSV" as the data source.
+- Navigated to the location where the CSV file is stored.
+- Selected the CSV file I want to import and clicked "Open."
+
+**_4.Preview and Transform_**
+- Power BI displayed a preview of the data from the CSV file.
+- Reviewed the data to ensure it is displayed correctly.
+
+
+# Data Profiling
+ Using Power BI's data profiling feature, one can examine and analyze the qualities and features of data to learn more about its structure, trends, possible problems, and outliers. 
+ It helps to make informed decision on data cleaning and transformation. Data profiling is made easier with Power BI's array of features and tools.  These are column quality, column distribution and column profile.
+
+Data Profile on Key Column on Coffee Sales Table
+
+**_1.Basic information_**
+- Table name: Coffee Sales Table
+_ Number of Rows: 149,116
+_ Number of key Columns: 12
+
+**_2.Column Profile_**
+ ![](PowerQ1.png)
+ 
+**_3. Data Quality Checks_**
+Missing Values:
+- Transaction ID: 0
+- Transaction Date: 0
+- Transaction Time: 0
+- Transaction Qty: 0
+- Product ID: 0
+- Unit Price: 0
+- Profit: 0
+- Product Category: 0
+- Product Type: 0
+- Product Detail: 0
+- Store ID: 0
+_ Store Location: 0
+
+# Data Cleaning and Processing
+The process of cleaning data in Power BI involves utilizing the Power Query Editor, an effective tool for shaping and modifying data prior to its loading into the Power BI data model. High levels of accuracy, consistency, quality, and integrity can all be attained with the aid of data cleaning. The insight obtained from data profiling indicates that the dataset used in this analysis is well-structured, consistent, and free of significant errors that might complicate analysis or interpretation. Each column has the correct data type assigned to it, the data values are accurate, and there are no duplicate records. Consistent naming conventions and uniform formatting are employed throughout the data.
+As a result, no further cleaning is needed. The following process was carried out during data processes.
+
+- Added a new column
+The coffee sales data was enriched with six new columns: Year, Month Number, Month Names, Weekday, Week Number, and Quarter, which were added to the Maven Roasters’ sales dataset. These additional columns are crucial in the analysis, enabling a detailed exploration of how Maven Roasters' sales have trended over time. They also play a significant role in identifying the busiest days of the week, helping to uncover the factors driving these patterns. By incorporating these temporal indicators, the dataset's analytical capabilities are enhanced, allowing for a more comprehensive assessment of sales dynamics and patterns across different timeframes.
+
+# Data Analysis and Insight
+The primary goal of this analysis is to extract meaningful insights from Maven Roasters' sales data by thoroughly investigating key factors. First, it examines patterns in the data to understand temporal trends in sales over time. Second, a detailed analysis is conducted at the product level to identify the most and least frequently sold items, as well as the specific revenue contributions of each product. Third, the analysis explores the underlying factors influencing transaction volumes on specific days to determine which days of the week consistently see peak activity at Maven Roasters.
+
+This analysis provides answers to the following questions.
+**1.How have Maven Roasters sales trended over time?**
+This analysis explores trends and changes in the sales performance of the coffee shop, Maven Roasters. It seeks to determine whether the sales have been steadily rising, falling, or fluctuating, in order to understand the overall trajectory of the company’s sales. A DAX (Data Analytics Expressions) measure was created to calculate the total revenue generated by the coffee shop each month. 
+
+```DAX code for calculating Total Revenue.
+
+Total Revenue = SUMX ('Sales Data', 'Sales Data'[transaction_qty]*'Sales Data'[unit_price]) 
+``
+This measure compiles monthly sales data, providing a concise and comprehensive overview of Maven Roasters' revenue for each month. The insights gained from this calculation help identify trends, variations, and patterns in sales performance over time.
+A line chart was used for the visualization to visually represent the dynamic patterns and fluctuations in sales data, providing a clearer and more insightful understanding of the changes within the dataset.
+ ![](Revenue_Overtime1.png)
+
+From the above analysis,
+- There is a consistent increase in total revenue from January to June, indicating a positive sales trend over the six-month period. 
+- Revenue saw a significant rise from March to June, possibly due to seasonal factors or increased customer activity during this time. 
+- June stands out with the highest revenue, suggesting a surge in sales or the success of promotions during that period.
+
+**2.Which days of the week tend to be busiest, and why do you think that's the case?**
+This involves analyzing the sales data to determine which days of the week the coffee shop experiences higher levels of business activity and to uncover potential reasons behind these patterns. To address this, the first step is to identify the busiest day of the week. The analysis required creating a measure to calculate the total revenue generated on each day. This was done by summing the sales amounts from all transactions, providing a quantitative measure of the financial impact for each day.
+
+
+
+
+
+
+
+
+
+
+
