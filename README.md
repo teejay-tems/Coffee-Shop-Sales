@@ -94,7 +94,8 @@ By analyzing sales trends and identifying popular products, the marketing team c
 - Number of key Columns: 12
 
 **_2.Column Profile_**
-|Column Name|Data Type|Distinct Value|Unique Value|% Valid  Values|% Valid Errors|% Empty Values|Min|Max|
+
+|Column_Name|Data_Type|Distinct_Value|Unique_Value|%Valid _Values|%Valid_Errors|%Empty_Values|Minimum|Maximum|
 |Transaction ID|------|--------|---------|--------|-------|----------|---------|--------|
 |Transaction Date|---------|--------|---------|--------|-------|----------|---------|--------|
 |Transaction Time|---------|--------|---------|--------|-------|----------|---------|--------|
@@ -107,7 +108,7 @@ By analyzing sales trends and identifying popular products, the marketing team c
 |Product Detail|---------|--------|---------|--------|-------|----------|---------|--------|
 |Store ID|---------|--------|---------|--------|-------|----------|---------|--------|
 |Store Location|---------|--------|---------|--------|-------|----------|---------|--------|
-
+ 
  
 **_3. Data Quality Checks_**
 Missing Values:
