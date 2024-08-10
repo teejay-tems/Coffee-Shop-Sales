@@ -14,10 +14,10 @@ A Power BI project analyzing a fictitious coffee shop operating in New York City
 - [Data Source](https://github.com/teejay-tems/Coffee-Shop-Sales#data-source)
 - [Data Profiling](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#data-profiling)
 - [Data Cleaning and Processing](https://github.com/teejay-tems/Coffee-Shop-Sales#data-cleaning-and-processing)
-- [Data Analysis](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#data-analysis-and-insight) 
-- [Data Visualization]()
-- [Recommendation]
-- [Conclusion]
+- [Data Analysis and Insight](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#data-analysis-and-insight) 
+- [Data Visualization](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#data-visualization)
+- [Recommendation](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#recommendation)
+- [Conclusion](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#conclusion)
 
 # Project Overview   
 This project seeks to equip the Coffee Shop with actionable insights based on a detailed analysis of Maven Roasters' sales data. It will provide valuable information on product popularity, track sales trends over time, and evaluate the revenue contributions of different store locations. Additionally, the project aims to capture a comprehensive understanding of sales dynamics across various locations within a specified timeframe. By offering a deep dive into these metrics, the project will enable the Coffee Shop to make informed decisions, optimize operations, and strategically drive business growth.
