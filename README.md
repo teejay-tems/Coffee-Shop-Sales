@@ -94,7 +94,20 @@ By analyzing sales trends and identifying popular products, the marketing team c
 - Number of key Columns: 12
 
 **_2.Column Profile_**
- ![](PowerQ1.png)
+|Column Name|Data Type|Distinct Value|Unique Value|% Valid  Values|% Valid Errors|% Empty Values|Min|Max|
+|Transaction ID|------|--------|---------|--------|-------|----------|---------|--------|
+|Transaction Date|---------|--------|---------|--------|-------|----------|---------|--------|
+|Transaction Time|---------|--------|---------|--------|-------|----------|---------|--------|
+|Transaction Qty|---------|--------|---------|--------|-------|----------|---------|--------|
+|Product ID|---------|--------|---------|--------|-------|----------|---------|--------|
+|Unit Price|---------|--------|---------|--------|-------|----------|---------|--------|
+|Profit|---------|--------|---------|--------|-------|----------|---------|--------|
+|Product Category|---------|--------|---------|--------|-------|----------|---------|--------|
+||Product Type|---------|--------|---------|--------|-------|----------|---------|--------|
+|Product Detail|---------|--------|---------|--------|-------|----------|---------|--------|
+|Store ID|---------|--------|---------|--------|-------|----------|---------|--------|
+|Store Location|---------|--------|---------|--------|-------|----------|---------|--------|
+
  
 **_3. Data Quality Checks_**
 Missing Values:
@@ -109,8 +122,12 @@ Missing Values:
 - Product Type: 0
 - Product Detail: 0
 - Store ID: 0
-_ Store Location: 0
+- Store Location: 0
+- Duplicates: This table has no duplicate value
 
+ ![](PowerQ1.png)
+
+ 
 # Data Cleaning and Processing
 The process of cleaning data in Power BI involves utilizing the Power Query Editor, an effective tool for shaping and modifying data prior to its loading into the Power BI data model. High levels of accuracy, consistency, quality, and integrity can all be attained with the aid of data cleaning. The insight obtained from data profiling indicates that the dataset used in this analysis is well-structured, consistent, and free of significant errors that might complicate analysis or interpretation. Each column has the correct data type assigned to it, the data values are accurate, and there are no duplicate records. Consistent naming conventions and uniform formatting are employed throughout the data.
 As a result, no further cleaning is needed. The following process was carried out during data processes.
