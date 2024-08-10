@@ -1,21 +1,23 @@
 # Coffee-Shop-Sales
 ![](Coffe_Shop.png) 
+---
 # Introduction
 A Power BI project analyzing a fictitious coffee shop operating in New York City and to provide insights needed to make informed decisions and pinpoint important areas in need of enhancement and optimization.
 
 # Table Of Content
-- Project Overview
-- Project Scope
-- Business Objective
-- Document Purpose
-- Use Case
-- Skills/Concept Demonstrated
-- Data Source
-- Data Cleaning and Processing
-- Data Analysis 
-- Data Visualization
-- Recommendation
-- Conclusion
+- [Project Overview](https://github.com/teejay-tems/Coffee-Shop-Sales#project-overview)
+- [Project Scope](https://github.com/teejay-tems/Coffee-Shop-Sales#project-scope)
+- [Business Objective](https://github.com/teejay-tems/Coffee-Shop-Sales#business-objective)
+- [Document Purpose](https://github.com/teejay-tems/Coffee-Shop-Sales#document-purpose)
+- [Use Case](https://github.com/teejay-tems/Coffee-Shop-Sales#use-case)
+- [Skills/Concept Demonstrated](https://github.com/teejay-tems/Coffee-Shop-Sales#skills-concepts-demonstrated)
+- [Data Source](https://github.com/teejay-tems/Coffee-Shop-Sales#data-source)
+- [Data Profiling](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#data-profiling)
+- [Data Cleaning and Processing](https://github.com/teejay-tems/Coffee-Shop-Sales#data-cleaning-and-processing)
+- [Data Analysis](https://github.com/teejay-tems/Coffee-Shop-Sales?tab=readme-ov-file#data-analysis-and-insight) 
+- [Data Visualization]()
+- [Recommendation]
+- [Conclusion]
 
 # Project Overview   
 This project seeks to equip the Coffee Shop with actionable insights based on a detailed analysis of Maven Roasters' sales data. It will provide valuable information on product popularity, track sales trends over time, and evaluate the revenue contributions of different store locations. Additionally, the project aims to capture a comprehensive understanding of sales dynamics across various locations within a specified timeframe. By offering a deep dive into these metrics, the project will enable the Coffee Shop to make informed decisions, optimize operations, and strategically drive business growth.
@@ -52,9 +54,7 @@ By analyzing sales trends and identifying popular products, the marketing team c
 - Data Visualization
 
 # Data Source
- This project uses a dataset that was designed especially for practice and was taken from the Maven Analytics website. The dataset is provided as a CSV file and consists of a single table with 149,116 rows and 12 columns. Maven Roasters’ sales data is characterized by a wealth of information within this structured framework, offering a nuanced understanding of various aspects of their business operations. Key attributes that are necessary for a thorough analysis are included in the dataset: Product ID, Unit Price, Profit, Product 
- Category, Product Type, Product Detail, Store ID, Store Location, Transaction ID, Transaction Date, Transaction Time, and Transaction Qty. All these factors provide important information, which when combined creates a clear picture of the transactional scenario for 
- Maven Roasters.
+ This project uses a dataset that was designed especially for practice and was taken from the [Maven Analytics website](https://www.mavenanalytics.io/data-playground?page=5&pageSize=5). The dataset is provided as a CSV file and consists of a single table with 149,116 rows and 12 columns. Maven Roasters’ sales data is characterized by a wealth of information within this structured framework, offering a nuanced understanding of various aspects of their business operations. Key attributes that are necessary for a thorough analysis are included in the dataset: Product ID, Unit Price, Profit, Product Category, Product Type, Product Detail, Store ID, Store Location, Transaction ID, Transaction Date, Transaction Time, and Transaction Qty. All these factors provide important information, which when combined creates a clear picture of the transactional scenario for Maven Roasters.
 
 **Data Connection Details**
 
