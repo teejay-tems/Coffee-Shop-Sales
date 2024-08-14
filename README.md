@@ -1,4 +1,4 @@
-# Coffee-Shop-Sales- Using Power BI
+# Coffee-Shop-Sales
 ![](Coffe_Shop.png) 
 ---
 # Introduction
